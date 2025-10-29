@@ -1,0 +1,1465 @@
+{
+    "total": 109,
+    "values": [
+        {
+            "id": 3161657,
+            "starts_at": "2025-11-12T17:30:00+0300",
+            "name": "Тренажер Со-Действие. Среда 17:30-19:00. Группа №3",
+            "url": "https://coopalliance.timepad.ru/event/3161657/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161658,
+            "starts_at": "2025-11-26T17:30:00+0300",
+            "name": "Тренажер Со-Действие. Среда 17:30-19:00. Группа №3",
+            "url": "https://coopalliance.timepad.ru/event/3161658/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161734,
+            "starts_at": "2025-11-05T17:30:00+0300",
+            "name": "Тренажер Со-Действие. Среда 17:30-19:00. Группа №4",
+            "url": "https://coopalliance.timepad.ru/event/3161734/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161735,
+            "starts_at": "2025-11-19T17:30:00+0300",
+            "name": "Тренажер Со-Действие. Среда 17:30-19:00. Группа №4",
+            "url": "https://coopalliance.timepad.ru/event/3161735/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161769,
+            "starts_at": "2025-11-14T10:15:00+0300",
+            "name": " Тренажер Со-Действие. Пятница 10:15 - 11:45. Группа №1",
+            "url": "https://coopalliance.timepad.ru/event/3161769/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161770,
+            "starts_at": "2025-11-28T10:15:00+0300",
+            "name": " Тренажер Со-Действие. Пятница 10:15 - 11:45. Группа №1",
+            "url": "https://coopalliance.timepad.ru/event/3161770/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161814,
+            "starts_at": "2025-11-07T10:15:00+0300",
+            "name": "Тренажер Со-Действие. Пятница 10:15 - 11:45. Группа №2",
+            "url": "https://coopalliance.timepad.ru/event/3161814/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3161815,
+            "starts_at": "2025-11-21T10:15:00+0300",
+            "name": "Тренажер Со-Действие. Пятница 10:15 - 11:45. Группа №2",
+            "url": "https://coopalliance.timepad.ru/event/3161815/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3297104,
+            "starts_at": "2025-11-05T10:00:00+0300",
+            "name": "Тренинг «Переговоры и продажи по методу СПИН»",
+            "url": "https://bvkurse.timepad.ru/event/3297104/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3305028,
+            "starts_at": "2025-11-05T10:00:00+0300",
+            "name": "Специалист по обучению, развитию и оценке — теория и практика управления квалификацией персонала",
+            "url": "https://bvkurse.timepad.ru/event/3305028/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3316042,
+            "starts_at": "2025-11-06T10:00:00+0300",
+            "name": "Как организовать бережливый офис. 5S",
+            "url": "https://bvkurse.timepad.ru/event/3316042/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3316066,
+            "starts_at": "2025-11-10T10:00:00+0300",
+            "name": "Тренинг «Эффективные коммуникации в команде»",
+            "url": "https://bvkurse.timepad.ru/event/3316066/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3316622,
+            "starts_at": "2025-11-13T10:00:00+0300",
+            "name": "Эффективная постановка целей для руководителей",
+            "url": "https://bvkurse.timepad.ru/event/3316622/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3319058,
+            "starts_at": "2025-11-20T10:00:00+0300",
+            "name": "Тренинг «Результативное управление отделом продаж»",
+            "url": "https://bvkurse.timepad.ru/event/3319058/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3319399,
+            "starts_at": "2025-11-17T10:00:00+0300",
+            "name": "Тренинг «Создание доверительных отношений с клиентом»",
+            "url": "https://bvkurse.timepad.ru/event/3319399/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3319644,
+            "starts_at": "2025-11-17T10:00:00+0300",
+            "name": "Тренинг «Закупки: переговоры с поставщиками»",
+            "url": "https://bvkurse.timepad.ru/event/3319644/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3337380,
+            "starts_at": "2025-11-10T10:00:00+0300",
+            "name": "Сервис в ресторанном бизнесе",
+            "url": "https://bvkurse.timepad.ru/event/3337380/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3337385,
+            "starts_at": "2025-11-12T10:00:00+0300",
+            "name": "Тренинг «Что такое спиральная динамика или еще кое-что о продажах»",
+            "url": "https://bvkurse.timepad.ru/event/3337385/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3337462,
+            "starts_at": "2025-11-20T10:00:00+0300",
+            "name": "  Тренинг «Эффективный колл-центр»",
+            "url": "https://bvkurse.timepad.ru/event/3337462/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3343423,
+            "starts_at": "2025-11-20T10:00:00+0300",
+            "name": "Тренинг «Собеседование: «Продажа вакансии»",
+            "url": "https://bvkurse.timepad.ru/event/3343423/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3343707,
+            "starts_at": "2025-11-13T10:00:00+0300",
+            "name": "Высший пилотаж в продажах",
+            "url": "https://bvkurse.timepad.ru/event/3343707/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3379344,
+            "starts_at": "2025-11-20T10:30:00+0300",
+            "name": "TTD: Технологии для жизни. Осень - 2025",
+            "url": "https://ao-tehnopark-sankt-peterb.timepad.ru/event/3379344/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/10d89660-08a5-4ecc-af77-7da5d164d83b/-/preview/308x600/-/format/jpeg/poster_event_3379344.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/10d89660-08a5-4ecc-af77-7da5d164d83b/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3404542,
+            "starts_at": "2025-11-27T10:56:00+0300",
+            "name": "HR-школа",
+            "url": "https://bvkurse.timepad.ru/event/3404542/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3404547,
+            "starts_at": "2025-11-28T10:00:00+0300",
+            "name": "Тренинг «Жесткие, манипулятивные переговоры»",
+            "url": "https://bvkurse.timepad.ru/event/3404547/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3413024,
+            "starts_at": "2025-11-20T18:00:00+0300",
+            "name": "Нетворкинг для предпринимателей. 100 участников",
+            "url": "https://biznes-fokus.timepad.ru/event/3413024/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3423020,
+            "starts_at": "2025-11-04T09:30:00+0300",
+            "name": "BUSINESS STANDUP ТУР ОСКАРА ХАРТМАННА «ОХОТА ЗА ЕДИНОРОГАМИ». Санкт-Петербург.",
+            "url": "https://delay-prosto.timepad.ru/event/3423020/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/9e92e715-7b22-4abf-a606-5d7b13ab9fe1/-/preview/308x600/-/format/jpeg/poster_event_3423020.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/9e92e715-7b22-4abf-a606-5d7b13ab9fe1/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3441171,
+            "starts_at": "2025-11-24T10:00:00+0300",
+            "name": "Тренинг «Продажи в корпоративном секторе»",
+            "url": "https://bvkurse.timepad.ru/event/3441171/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3441206,
+            "starts_at": "2025-11-19T18:00:00+0300",
+            "name": "Деловая игра «Лучшая в мире команда»",
+            "url": "https://bvkurse.timepad.ru/event/3441206/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3441237,
+            "starts_at": "2025-11-26T10:00:00+0300",
+            "name": "Тренинг «Переговоры: стратегии эффективной коммуникации»",
+            "url": "https://bvkurse.timepad.ru/event/3441237/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3441301,
+            "starts_at": "2025-11-24T10:00:00+0300",
+            "name": "Курс «Эффективное управление персоналом» ",
+            "url": "https://bvkurse.timepad.ru/event/3441301/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3452325,
+            "starts_at": "2025-11-12T10:00:00+0300",
+            "name": "Нормирование и оплата труда на производственном и строительном предприятии, повышение производительности труда",
+            "url": "https://bvkurse.timepad.ru/event/3452325/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3475379,
+            "starts_at": "2025-11-17T10:00:00+0300",
+            "name": "Тренинг «Спиральная динамика в бизнесе»",
+            "url": "https://bvkurse.timepad.ru/event/3475379/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3480958,
+            "starts_at": "2025-11-06T10:00:00+0300",
+            "name": "Тренинг «Холодные звонки - профессиональная подготовка и проведение переговоров»",
+            "url": "https://bvkurse.timepad.ru/event/3480958/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3480991,
+            "starts_at": "2025-11-06T10:00:00+0300",
+            "name": "Деловая письменная и устная коммуникация",
+            "url": "https://bvkurse.timepad.ru/event/3480991/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487805,
+            "starts_at": "2025-11-19T10:00:00+0300",
+            "name": "Тренинг «Управление конфликтами с клиентами»",
+            "url": "https://bvkurse.timepad.ru/event/3487805/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487840,
+            "starts_at": "2025-11-08T10:00:00+0300",
+            "name": "Бережливое производство",
+            "url": "https://bvkurse.timepad.ru/event/3487840/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487848,
+            "starts_at": "2025-11-24T10:00:00+0300",
+            "name": "Тренинг «Клиентоориентированный сервис»",
+            "url": "https://bvkurse.timepad.ru/event/3487848/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487881,
+            "starts_at": "2025-11-27T10:00:00+0300",
+            "name": "Новый код управления. Профайлинг и психотипы",
+            "url": "https://bvkurse.timepad.ru/event/3487881/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487939,
+            "starts_at": "2025-11-10T10:00:00+0300",
+            "name": "Инспектор по кадрам — кадровое делопроизводство и трудовое право для начинающих",
+            "url": "https://bvkurse.timepad.ru/event/3487939/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3487994,
+            "starts_at": "2025-11-12T10:00:00+0300",
+            "name": "Тренинг «Тайм-менеджмент. Система управления временем»",
+            "url": "https://bvkurse.timepad.ru/event/3487994/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3551819,
+            "starts_at": "2025-11-21T10:00:00+0300",
+            "name": "Татьяна Мазина. Тренинг &quot;Эффективное развитие памяти, внимания и образного мышления, II ступень&quot; ",
+            "url": "https://cleventru.timepad.ru/event/3551819/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/2e5f5444-46c9-4538-be6c-fb497f0eb0f9/-/preview/308x600/-/format/jpeg/poster_event_3551819.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/2e5f5444-46c9-4538-be6c-fb497f0eb0f9/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3554063,
+            "starts_at": "2025-11-15T12:00:00+0300",
+            "name": "GEOMETRIA BUSINESS FORUM 11 / 2025",
+            "url": "https://geometria-spb.timepad.ru/event/3554063/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/c4a05842-41a9-451b-8244-233a8c989bf4/-/preview/308x600/-/format/jpeg/poster_event_3554063.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/c4a05842-41a9-451b-8244-233a8c989bf4/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3554143,
+            "starts_at": "2025-11-15T11:00:00+0300",
+            "name": "Тренинг &quot;Практический профайлинг - научись читать человека, как открытую книгу&quot; - 15-16 ноября",
+            "url": "https://academyresource.timepad.ru/event/3554143/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/cbb8a46d-a502-431b-9e0b-1706802b9972/-/preview/308x600/-/format/jpeg/poster_event_3554143.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/cbb8a46d-a502-431b-9e0b-1706802b9972/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3562908,
+            "starts_at": "2025-11-17T10:00:00+0300",
+            "name": "Тренинг «Ресурсная обратная связь!»",
+            "url": "https://bvkurse.timepad.ru/event/3562908/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/e9b2a54c-cd54-4d96-9bbd-2c35ff61bc7f/-/crop/4371x2458/0,228/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3562908.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/e9b2a54c-cd54-4d96-9bbd-2c35ff61bc7f/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3562944,
+            "starts_at": "2025-11-27T10:00:00+0300",
+            "name": "Тренинг «Управление конфликтами»",
+            "url": "https://bvkurse.timepad.ru/event/3562944/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/511ffbb8-8c04-49df-815a-7d7f0d56ca77/-/crop/4371x2458/0,228/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3562944.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/511ffbb8-8c04-49df-815a-7d7f0d56ca77/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3575734,
+            "starts_at": "2025-11-06T15:00:00+0300",
+            "name": "Cнижение рисков вовлеченности бизнеса в теневую экономику* ",
+            "url": "https://controlrisk.timepad.ru/event/3575734/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/feb42118-7a4b-4bf2-8108-fa737d6fdd9f/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3575734.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/feb42118-7a4b-4bf2-8108-fa737d6fdd9f/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3581431,
+            "starts_at": "2025-11-11T10:18:00+0300",
+            "name": "Кубок Губернатора &quot;Лучший шеф-повар Петербургской кухни&quot; 2025",
+            "url": "https://frio-media.timepad.ru/event/3581431/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/0c61ee19-e574-484c-a52f-fc0b147bae1e/-/crop/1280x720/0,132/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3581431.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/0c61ee19-e574-484c-a52f-fc0b147bae1e/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3584614,
+            "starts_at": "2025-11-21T10:03:00+0300",
+            "name": "Серый кардинал. ",
+            "url": "https://buvaethuge.timepad.ru/event/3584614/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/94338e5b-05aa-45c9-a9ae-6e8f237a1ba9/-/preview/308x600/-/format/jpeg/poster_event_3584614.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/94338e5b-05aa-45c9-a9ae-6e8f237a1ba9/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3584687,
+            "starts_at": "2025-11-10T18:00:00+0300",
+            "name": "Расстановки цели для людей бизнеса и консультантов. ",
+            "url": "https://buvaethuge.timepad.ru/event/3584687/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3584688,
+            "starts_at": "2025-11-24T18:00:00+0300",
+            "name": "Расстановки цели для людей бизнеса и консультантов. ",
+            "url": "https://buvaethuge.timepad.ru/event/3584688/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3589684,
+            "starts_at": "2025-11-14T10:00:00+0300",
+            "name": "Санкт-Петербург, 14 ноября 2025 Тренинг &quot;ПРОФЕССИОНАЛЬНОЕ УПРАВЛЕНИЕ РАЗВИТИЕМ БЕЗ БОЛИ И СТРЕССА. Убеждения, сопротивление, воля&quot;",
+            "url": "https://sdstrategy.timepad.ru/event/3589684/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/53aef5ba-c95b-4eee-98c0-e9727d048df9/-/preview/308x600/-/format/jpeg/poster_event_3589684.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/53aef5ba-c95b-4eee-98c0-e9727d048df9/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3595503,
+            "starts_at": "2025-11-01T11:00:00+0300",
+            "name": "Нейрозавтрак ",
+            "url": "https://shvedkov.timepad.ru/event/3595503/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3595504,
+            "starts_at": "2025-11-08T11:00:00+0300",
+            "name": "Нейрозавтрак ",
+            "url": "https://shvedkov.timepad.ru/event/3595504/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3595505,
+            "starts_at": "2025-11-15T11:00:00+0300",
+            "name": "Нейрозавтрак ",
+            "url": "https://shvedkov.timepad.ru/event/3595505/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3595506,
+            "starts_at": "2025-11-22T11:00:00+0300",
+            "name": "Нейрозавтрак ",
+            "url": "https://shvedkov.timepad.ru/event/3595506/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3595507,
+            "starts_at": "2025-11-29T11:00:00+0300",
+            "name": "Нейрозавтрак ",
+            "url": "https://shvedkov.timepad.ru/event/3595507/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3596840,
+            "starts_at": "2025-11-20T10:00:00+0300",
+            "name": "VII ежегодный Форум финансовых директоров",
+            "url": "https://kommersant-spb.timepad.ru/event/3596840/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/7aa85f1e-328a-4be6-903c-5b0499e208a7/-/crop/1280x721/0,3/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3596840.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/7aa85f1e-328a-4be6-903c-5b0499e208a7/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3608445,
+            "starts_at": "2025-11-15T12:00:00+0300",
+            "name": "GEOMETRIA FBS BUSINESS FORUM 2025",
+            "url": "https://geometria-spb.timepad.ru/event/3608445/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/d4120165-83ee-4455-b3e1-98d20b031283/-/crop/1463x822/0,44/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3608445.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/d4120165-83ee-4455-b3e1-98d20b031283/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3608780,
+            "starts_at": "2025-11-25T10:00:00+0300",
+            "name": "Курс собственника пекарни",
+            "url": "https://uchebnyy-tsentr-khl-event.timepad.ru/event/3608780/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/f76b1318-aad0-4a52-bc02-b3822790fe89/-/crop/1600x899/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3608780.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/f76b1318-aad0-4a52-bc02-b3822790fe89/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3610147,
+            "starts_at": "2025-11-04T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610147/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610148,
+            "starts_at": "2025-11-06T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610148/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610151,
+            "starts_at": "2025-11-11T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610151/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610152,
+            "starts_at": "2025-11-13T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610152/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610153,
+            "starts_at": "2025-11-18T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610153/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610154,
+            "starts_at": "2025-11-20T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610154/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610155,
+            "starts_at": "2025-11-25T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610155/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3610156,
+            "starts_at": "2025-11-27T16:00:00+0300",
+            "name": "Каппинг. Дегустация кофе и сиропов",
+            "url": "https://kofcheg.timepad.ru/event/3610156/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3617162,
+            "starts_at": "2025-11-05T19:00:00+0300",
+            "name": "Эксклюзивный трехчасовой мастер класс по ораторскому искусству от Константина Шейнина",
+            "url": "https://oee-orator.timepad.ru/event/3617162/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3617163,
+            "starts_at": "2025-11-19T19:00:00+0300",
+            "name": "Эксклюзивный трехчасовой мастер класс по ораторскому искусству от Константина Шейнина",
+            "url": "https://oee-orator.timepad.ru/event/3617163/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3621854,
+            "starts_at": "2025-11-07T16:00:00+0300",
+            "name": "Нетворкинг  сообщества &quot;Будуар&quot;  ",
+            "url": "https://praktikatb.timepad.ru/event/3621854/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/3a8b48ac-7f6d-4b83-8faa-eb5d8d3f481d/-/crop/1280x720/0,128/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3621854.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/3a8b48ac-7f6d-4b83-8faa-eb5d8d3f481d/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3624759,
+            "starts_at": "2025-11-05T19:30:00+0300",
+            "name": "НЕТВОРКИНГ на английском языке в Eat market Галерея Лиговский пр., 30",
+            "url": "https://rechtren.timepad.ru/event/3624759/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3624760,
+            "starts_at": "2025-11-12T19:30:00+0300",
+            "name": "НЕТВОРКИНГ на английском языке в Eat market Галерея Лиговский пр., 30",
+            "url": "https://rechtren.timepad.ru/event/3624760/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3624762,
+            "starts_at": "2025-11-19T19:30:00+0300",
+            "name": "НЕТВОРКИНГ на английском языке в Eat market Галерея Лиговский пр., 30",
+            "url": "https://rechtren.timepad.ru/event/3624762/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3624763,
+            "starts_at": "2025-11-26T19:30:00+0300",
+            "name": "НЕТВОРКИНГ на английском языке в Eat market Галерея Лиговский пр., 30",
+            "url": "https://rechtren.timepad.ru/event/3624763/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3625586,
+            "starts_at": "2025-11-08T11:00:00+0300",
+            "name": "БОЛЬШАЯ НЕТВОРК-КОНФЕРЕНЦИЯ Бизнес, Инновации, Масштаб, Личный бренд ",
+            "url": "https://netvorking-raketa.timepad.ru/event/3625586/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/a0c16bc2-68cc-47f7-b3b7-41d230bf2517/-/crop/1290x726/0,1165/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3625586.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/a0c16bc2-68cc-47f7-b3b7-41d230bf2517/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3629648,
+            "starts_at": "2025-11-15T12:00:00+0300",
+            "name": "Корректировка таможенной стоимости: как избежать доначислений и защитить свой бизнес",
+            "url": "https://ak-intersolyushen.timepad.ru/event/3629648/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/0c58562b-efd6-48dd-8f79-9c7b3223e83d/-/crop/7360x4136/0,386/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3629648.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/0c58562b-efd6-48dd-8f79-9c7b3223e83d/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3629849,
+            "starts_at": "2025-11-05T19:00:00+0300",
+            "name": "Книжный клуб | Психологическое айкидо | 5 ноября",
+            "url": "https://investclubspb2510.timepad.ru/event/3629849/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/564144d6-e089-4b76-a64a-da8d6667de83/-/crop/5760x3236/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3629849.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/564144d6-e089-4b76-a64a-da8d6667de83/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3629852,
+            "starts_at": "2025-11-27T15:00:00+0300",
+            "name": "Мастер-класс по уходу за эспрессо-кофемашиной и кофемолкой",
+            "url": "https://milanobar-training.timepad.ru/event/3629852/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/4c022e99-14f9-4589-8f1d-2c99fd853939/-/preview/308x600/-/format/jpeg/poster_event_3629852.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/4c022e99-14f9-4589-8f1d-2c99fd853939/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3630317,
+            "starts_at": "2025-11-26T09:30:00+0300",
+            "name": "ВЭД как драйвер роста: фокус на Северо-Западе России",
+            "url": "https://agentstvo-biznes-novostey.timepad.ru/event/3630317/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/98e42bf3-5978-4258-a4a2-07cb59ffd1e7/-/crop/1280x719/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3630317.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/98e42bf3-5978-4258-a4a2-07cb59ffd1e7/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3631618,
+            "starts_at": "2025-11-30T13:30:00+0300",
+            "name": "Мастер-класс  «Работа со штампами как способ увеличить производительность». Ведущие: Синюкова Ирина Валерьевна, Авдеев Григорий Владимирович",
+            "url": "https://mirpryanikaspb-event.timepad.ru/event/3631618/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/89b5c2e7-e8db-4459-86f7-8cade75990ab/-/preview/308x600/-/format/jpeg/poster_event_3631618.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/89b5c2e7-e8db-4459-86f7-8cade75990ab/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3633226,
+            "starts_at": "2025-11-07T19:00:00+0300",
+            "name": "Бизнес-игра &quot;RYBAKOV.Игра на миллиард&quot; ",
+            "url": "https://soobshchestvo-vsmysle.timepad.ru/event/3633226/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/30c09e8d-cbf9-4ccc-8467-fa398dcb37c1/-/preview/308x600/-/format/jpeg/poster_event_3633226.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/30c09e8d-cbf9-4ccc-8467-fa398dcb37c1/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3633755,
+            "starts_at": "2025-11-13T18:00:00+0300",
+            "name": "Нетворкинг на котором продают! 100+ участников, в 2 раза больше лидов!",
+            "url": "https://netvorkingi-starostina.timepad.ru/event/3633755/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/960e603d-be60-4ea1-afa1-497b4c8ee39f/-/crop/1280x721/0,203/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3633755.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/960e603d-be60-4ea1-afa1-497b4c8ee39f/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3634082,
+            "starts_at": "2025-11-27T11:00:00+0300",
+            "name": "Нетворкинг на котором выступают! СПБ",
+            "url": "https://netvorkingi-starostina.timepad.ru/event/3634082/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/3fd21340-ecc8-4c4e-9e76-d1358ed38be5/-/crop/1280x720/0,69/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3634082.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/3fd21340-ecc8-4c4e-9e76-d1358ed38be5/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3635007,
+            "starts_at": "2025-11-19T12:00:00+0300",
+            "name": "Нетворкинг Хлебник",
+            "url": "https://uchebnyy-tsentr-khl-event.timepad.ru/event/3635007/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/fb6deddc-c41a-4310-9287-02c43441291c/-/crop/1600x899/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3635007.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/fb6deddc-c41a-4310-9287-02c43441291c/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3635008,
+            "starts_at": "2025-11-14T19:00:00+0300",
+            "name": "Бизнес-игра &quot;LikeGame&quot;",
+            "url": "https://soobshchestvo-vsmysle.timepad.ru/event/3635008/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/9fdace5f-9c94-45a1-a67b-c928efc9d11e/-/preview/308x600/-/format/jpeg/poster_event_3635008.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/9fdace5f-9c94-45a1-a67b-c928efc9d11e/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3637442,
+            "starts_at": "2025-11-12T10:00:00+0300",
+            "name": "Как HR HRу: диалоги о корпоративной культуре",
+            "url": "https://business-school-ami.timepad.ru/event/3637442/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/d5ec425d-ff3a-4c7a-90ea-254f8c03e28f/-/crop/1920x1079/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3637442.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/d5ec425d-ff3a-4c7a-90ea-254f8c03e28f/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3638867,
+            "starts_at": "2025-11-28T12:00:00+0300",
+            "name": "ЖЕНСКИЙ БИЗНЕС-НЕТВОРКИНГ ",
+            "url": "https://women-club-proyavis.timepad.ru/event/3638867/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/fd00f101-30f5-485b-aec4-e978186ff2c9/-/preview/308x600/-/format/jpeg/poster_event_3638867.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/fd00f101-30f5-485b-aec4-e978186ff2c9/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3640837,
+            "starts_at": "2025-11-23T14:00:00+0300",
+            "name": "Играем в игру &quot;ДЕНЕЖНЫЙ ПОТОК&quot;  ",
+            "url": "https://sheludko-elena-2023.timepad.ru/event/3640837/",
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3641673,
+            "starts_at": "2025-11-30T11:00:00+0300",
+            "name": "Масштабный Бизнес-Форум &quot;Тренды успешного бизнеса 2026&quot;",
+            "url": "https://investgeek-event.timepad.ru/event/3641673/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/d1b37575-5de6-4704-bbf6-1778fb60af03/-/preview/308x600/-/format/jpeg/poster_event_3641673.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/d1b37575-5de6-4704-bbf6-1778fb60af03/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3642755,
+            "starts_at": "2025-11-06T11:00:00+0300",
+            "name": "Мои факапы в бизнесе и как я из них выбирался",
+            "url": "https://biznes-siyanie.timepad.ru/event/3642755/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/d9ad358a-b0d7-43cb-8468-f5949fd93178/-/crop/7680x4315/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3642755.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/d9ad358a-b0d7-43cb-8468-f5949fd93178/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3643151,
+            "starts_at": "2025-11-02T15:00:00+0300",
+            "name": "Открытый семинар и нетворкинг!",
+            "url": "https://biznes-kvartira-2025.timepad.ru/event/3643151/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/000fee6b-e5fe-401c-9edf-ea432434a981/-/crop/1918x1079/1,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3643151.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/000fee6b-e5fe-401c-9edf-ea432434a981/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3645808,
+            "starts_at": "2025-11-03T13:00:00+0300",
+            "name": "Бизнес-игра &quot;LikeGame&quot;",
+            "url": "https://soobshchestvo-vsmysle.timepad.ru/event/3645808/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/9fdace5f-9c94-45a1-a67b-c928efc9d11e/-/preview/308x600/-/format/jpeg/poster_event_3645808.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/9fdace5f-9c94-45a1-a67b-c928efc9d11e/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3646200,
+            "starts_at": "2025-11-18T18:30:00+0300",
+            "name": "Биг-Нетворкинг от Бизнес-Клуба &quot;СПБ ПИПЛ&quot;  ",
+            "url": "https://spbpipl.timepad.ru/event/3646200/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/8e9de512-7622-4b31-a8ca-e3af637f0ec7/-/crop/1280x719/0,1/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3646200.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/8e9de512-7622-4b31-a8ca-e3af637f0ec7/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "featured"
+        },
+        {
+            "id": 3646965,
+            "starts_at": "2025-11-06T17:00:00+0300",
+            "name": "Встреча с продуктовым карьерным консультантом для студентов ФТМИ ИТМО",
+            "url": "https://ftmi-itmo.timepad.ru/event/3646965/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/a374352a-8611-431b-9379-faaffd97f504/-/crop/1451x816/3,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3646965.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/a374352a-8611-431b-9379-faaffd97f504/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3647475,
+            "starts_at": "2025-11-15T14:00:00+0300",
+            "name": "&quot;Идеальный спикер&quot; - Авторский тренинг Игоря Климова  ",
+            "url": "https://artoldmasters.timepad.ru/event/3647475/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/3d2af5d5-45ce-46a0-be13-b2b12d7a2fc1/-/preview/308x600/-/format/jpeg/poster_event_3647475.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/3d2af5d5-45ce-46a0-be13-b2b12d7a2fc1/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "shown"
+        },
+        {
+            "id": 3648298,
+            "starts_at": "2025-11-05T18:00:00+0300",
+            "name": "Бизнес-разборы и нетворкинг &quot;Лидогенерация и выбор каналов продаж/трафика&quot; | Центр притяжения предпринимателей &quot;Путь Роста&quot;",
+            "url": "https://putrosta.timepad.ru/event/3648298/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/0984dd6b-62ba-4577-83de-669ce2d6b2ae/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3648298.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/0984dd6b-62ba-4577-83de-669ce2d6b2ae/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "not_moderated"
+        },
+        {
+            "id": 3648308,
+            "starts_at": "2025-11-08T12:00:00+0300",
+            "name": "Авторская Бизнес Игра &quot;Коллаборация&quot;| Центр притяжения предпринимателей &quot;Путь Роста&quot; ",
+            "url": "https://putrosta.timepad.ru/event/3648308/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/8f9d27b5-3106-469e-a378-442614064f01/-/crop/1280x719/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3648308.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/8f9d27b5-3106-469e-a378-442614064f01/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "not_moderated"
+        },
+        {
+            "id": 3648621,
+            "starts_at": "2025-11-14T17:00:00+0300",
+            "name": "AIKI CLUB: &quot;Диалоги о рыбалке&quot;",
+            "url": "https://benua.timepad.ru/event/3648621/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/881ff681-ebd2-470e-9dd6-d08cb6076695/-/preview/308x600/-/format/jpeg/poster_event_3648621.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/881ff681-ebd2-470e-9dd6-d08cb6076695/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "not_moderated"
+        },
+        {
+            "id": 3648684,
+            "starts_at": "2025-11-10T18:00:00+0300",
+            "name": "Мастермайнд &quot;Продажи и продающие связки&quot; | Центр притяжения предпринимателей &quot;Путь Роста&quot;",
+            "url": "https://putrosta.timepad.ru/event/3648684/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/b082943f-7a96-4364-a414-18e1bf0a1895/-/crop/1280x719/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3648684.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/b082943f-7a96-4364-a414-18e1bf0a1895/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "not_moderated"
+        },
+        {
+            "id": 3648691,
+            "starts_at": "2025-11-22T12:00:00+0300",
+            "name": "Бизнес Игра &quot;Попробуй Продай&quot; | Центр притяжения предпринимателей &quot;Путь Роста&quot;",
+            "url": "https://putrosta.timepad.ru/event/3648691/",
+            "poster_image": {
+                "default_url": "https://ucare.timepad.ru/b03a9504-563d-4e81-a0f7-d23d0d0d455d/-/crop/1281x720/0,0/-/resize/1920x1080/-/preview/308x600/-/format/jpeg/poster_event_3648691.jpg",
+                "uploadcare_url": "//ucare.timepad.ru/b03a9504-563d-4e81-a0f7-d23d0d0d455d/"
+            },
+            "categories": [
+                {
+                    "id": 217,
+                    "name": "Бизнес"
+                }
+            ],
+            "moderation_status": "not_moderated"
+        }
+    ]
+}

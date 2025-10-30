@@ -1,10 +1,14 @@
 import csv
 import os
 import random
+import re
 import threading
 import time
+import traceback
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+from pathlib import Path
+from typing import Iterable, List, Set
 from urllib.parse import urlencode
 
 import pandas as pd
@@ -18,15 +22,71 @@ DEFAULT_FIELDS = ",".join([
     "organization","location","price_min","price_max","url","created_at"
 ])
 ISO_8601_ZULU = "%Y-%m-%dT%H:%M:%SZ"
+REGISTRY_FILE = Path("events_registry.csv")
+DEFAULT_DATA_FILE = Path("events_data.csv")
+DATA_FILE_MAP = {
+    "санктпетербург": Path("events_data_spb.csv"),
+    "spb": Path("events_data_spb.csv"),
+    "москва": Path("events_data_msk.csv"),
+    "moscow": Path("events_data_msk.csv"),
+    "moskva": Path("events_data_msk.csv"),
+    "msk": Path("events_data_msk.csv"),
+}
+REGISTRY_COLUMNS = ["id", "starts_at"]
 EXPORT_COLUMNS = [
+    "id",
     "starts_at",
     "name",
+    "url",
     "description_short",
+    "description_html",
     "organization",
     "categories",
     "tickets_limit",
     "moderation_status",
 ]
+
+def normalize_city_key(city: str | None) -> str:
+    if not city:
+        return ""
+    key = city.strip().lower()
+    key = key.replace("ё", "е")
+    key = key.replace(" ", "")
+    key = key.replace("-", "")
+    return key
+
+def resolve_data_file(city: str | None) -> Path:
+    key = normalize_city_key(city)
+    return DATA_FILE_MAP.get(key, DEFAULT_DATA_FILE)
+
+def format_human_datetime(raw_value) -> str:
+    if raw_value is None:
+        return ""
+    if isinstance(raw_value, float) and pd.isna(raw_value):
+        return ""
+    text = str(raw_value).strip()
+    if not text:
+        return ""
+    candidate = text
+    if candidate.endswith("Z"):
+        candidate = candidate[:-1] + "+0000"
+    if re.search(r"[+-]\d{2}:\d{2}$", candidate):
+        candidate = candidate[:-3] + candidate[-2:]
+    try:
+        dt = datetime.strptime(candidate, "%Y-%m-%dT%H:%M:%S%z")
+        return dt.strftime("%d.%m.%Y %H:%M")
+    except ValueError:
+        pass
+    try:
+        dt = datetime.strptime(text, "%Y-%m-%dT%H:%M:%S")
+        return dt.strftime("%d.%m.%Y %H:%M")
+    except ValueError:
+        pass
+    try:
+        dt = datetime.strptime(text, "%d.%m.%Y %H:%M")
+        return dt.strftime("%d.%m.%Y %H:%M")
+    except ValueError:
+        return text
 
 def read_filters(path="filters.csv"):
     filters = {}
@@ -132,22 +192,34 @@ def fetch_event_ids(filters):
     skip = int(base_filters.pop("skip", 0) or 0)
     limit = int(base_filters.get("limit", 100))
 
-    event_ids = []
+    events_summary = []
     page = 1
 
     while True:
         page_filters = dict(base_filters)
         if skip_in_initial or skip:
             page_filters["skip"] = skip
-        query = build_query(page_filters, fields="id")
+        query = build_query(page_filters, fields="id,starts_at")
         url = f"{API_URL}?{query}"
         print("Запрос списка событий:", url)
         data = request_json_with_retry(url, headers=headers)
 
         values = data.get("values", [])
-        ids_on_page = [item.get("id") for item in values if item.get("id") is not None]
-        event_ids.extend(ids_on_page)
-        print(f"Страница {page}: найдено id {len(ids_on_page)}, всего собрано {len(event_ids)}")
+        page_records = []
+        for item in values:
+            event_id = item.get("id")
+            if event_id is None:
+                continue
+            try:
+                event_id_int = int(event_id)
+            except (TypeError, ValueError):
+                continue
+            page_records.append({
+                "id": event_id_int,
+                "starts_at": item.get("starts_at"),
+            })
+        events_summary.extend(page_records)
+        print(f"Страница {page}: найдено id {len(page_records)}, всего собрано {len(events_summary)}")
 
         if len(values) < limit:
             break
@@ -155,7 +227,7 @@ def fetch_event_ids(filters):
         skip += limit
         page += 1
 
-    return event_ids
+    return events_summary
 
 def fetch_single_event(event_id, headers, rate_limiter: RateLimiter, max_attempts: int = 5):
     url = f"{API_URL}/{event_id}"
@@ -172,6 +244,7 @@ def fetch_single_event(event_id, headers, rate_limiter: RateLimiter, max_attempt
             time.sleep(wait)
             continue
 
+        print(f"ℹ️  Ответ {response.status_code} для события {event_id}")
         if response.status_code == 200:
             try:
                 data = response.json()
@@ -181,7 +254,8 @@ def fetch_single_event(event_id, headers, rate_limiter: RateLimiter, max_attempt
             payload = data.get("value") if isinstance(data, dict) else None
             if payload is None:
                 payload = data
-            return extract_event_row(payload)
+            print(f"✅  Успешный ответ для события {event_id} (200)")
+            return extract_event_row(event_id, payload)
 
         snippet = response.text[:300] if response.text else ""
         is_rate_limited = (
@@ -247,9 +321,11 @@ def fetch_event_details(event_ids):
                     result_row = future.result()
                 except Exception as exc:
                     print(f"⚠️  Сбой при обработке события {event_id}: {exc}")
+                    traceback.print_exc()
                     batch_failed.append(event_id)
                     continue
                 if result_row is None:
+                    print(f"⚠️  Пустой результат для события {event_id}, добавляю в повторную очередь")
                     batch_failed.append(event_id)
                 else:
                     batch_results[event_id] = result_row
@@ -303,7 +379,102 @@ def fetch_event_details(event_ids):
     ordered_rows = [collected[event_id] for event_id in event_ids if event_id in collected]
     return ordered_rows
 
-def extract_event_row(event):
+def ensure_registry(events: Iterable[dict]) -> List[int]:
+    """Append new events to the registry and return the full unique id set."""
+    prepared_records = []
+    seen_new: Set[int] = set()
+    for event in events:
+        event_id = event.get("id")
+        if event_id is None:
+            continue
+        try:
+            event_id_int = int(event_id)
+        except (TypeError, ValueError):
+            continue
+        if event_id_int in seen_new:
+            continue
+        starts_at_formatted = format_human_datetime(event.get("starts_at"))
+        prepared_records.append({
+            "id": event_id_int,
+            "starts_at": starts_at_formatted,
+        })
+        seen_new.add(event_id_int)
+
+    existing_records = []
+    existing_index = {}
+    if REGISTRY_FILE.exists():
+        df_existing = pd.read_csv(REGISTRY_FILE, dtype={"id": "int64"}, keep_default_na=False)
+        if "starts_at" not in df_existing.columns:
+            df_existing["starts_at"] = ""
+        for idx, row in df_existing.iterrows():
+            event_id = int(row["id"])
+            formatted = format_human_datetime(row.get("starts_at", ""))
+            existing_records.append({"id": event_id, "starts_at": formatted})
+            existing_index[event_id] = idx
+
+    for record in prepared_records:
+        event_id = record["id"]
+        if event_id in existing_index:
+            idx = existing_index[event_id]
+            existing_row = existing_records[idx]
+            if not existing_row.get("starts_at") and record["starts_at"]:
+                existing_row["starts_at"] = record["starts_at"]
+        else:
+            existing_index[event_id] = len(existing_records)
+            existing_records.append(record)
+
+    if not existing_records:
+        existing_records = prepared_records
+
+    df = pd.DataFrame(existing_records, columns=REGISTRY_COLUMNS)
+    df.to_csv(REGISTRY_FILE, index=False, encoding="utf-8")
+    print(f"✅ Обновлен реестр событий: {len(existing_records)} уникальных id")
+    return [record["id"] for record in existing_records]
+
+def load_registry_ids() -> List[int]:
+    if not REGISTRY_FILE.exists():
+        return []
+    df = pd.read_csv(REGISTRY_FILE, dtype={"id": "int64"}, keep_default_na=False)
+    if "starts_at" in df.columns:
+        df["starts_at"] = df["starts_at"].apply(format_human_datetime)
+    ids = df["id"].dropna().astype("int64").tolist()
+    return ids
+
+def load_existing_data_ids(data_file: Path) -> Set[int]:
+    if not data_file.exists():
+        return set()
+    df = pd.read_csv(data_file, keep_default_na=False)
+    if "id" not in df.columns:
+        return set()
+    ids_series = pd.to_numeric(df["id"], errors="coerce").dropna().astype("int64")
+    ids = set(ids_series.tolist())
+    return ids
+
+def append_events_data(rows: List[dict], data_file: Path):
+    if not rows:
+        return
+    df_new = pd.DataFrame(rows)
+    missing_in_new = [col for col in EXPORT_COLUMNS if col not in df_new.columns]
+    for col in missing_in_new:
+        df_new[col] = ""
+    df_new["starts_at"] = df_new["starts_at"].apply(format_human_datetime)
+    df_new = df_new[EXPORT_COLUMNS]
+
+    if data_file.exists():
+        df_existing = pd.read_csv(data_file, keep_default_na=False)
+        for col in EXPORT_COLUMNS:
+            if col not in df_existing.columns:
+                df_existing[col] = ""
+        df_existing["starts_at"] = df_existing["starts_at"].apply(format_human_datetime)
+        df_existing = df_existing[EXPORT_COLUMNS]
+        df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+    else:
+        df_combined = df_new
+    df_combined = df_combined[EXPORT_COLUMNS]
+    df_combined.to_csv(data_file, index=False, encoding="utf-8", columns=EXPORT_COLUMNS)
+    print(f"✅ Дописано записей в {data_file}: {len(df_new)}")
+
+def extract_event_row(event_id, event):
     categories = event.get("categories") or []
     category_names = []
     for item in categories:
@@ -329,9 +500,12 @@ def extract_event_row(event):
         tickets_limit_value = str(tickets_limit)
 
     return {
-        "starts_at": event.get("starts_at") or "",
+        "id": event_id,
+        "starts_at": format_human_datetime(event.get("starts_at")),
         "name": event.get("name") or "",
+        "url": event.get("url") or "",
         "description_short": event.get("description_short") or "",
+        "description_html": event.get("description_html") or "",
         "organization": organization_name,
         "categories": categories_value,
         "tickets_limit": tickets_limit_value,
@@ -340,20 +514,25 @@ def extract_event_row(event):
 
 def main():
     filters = read_filters("filters.csv")
-    event_ids = fetch_event_ids(filters)
-    if not event_ids:
+    data_file = resolve_data_file(filters.get("cities"))
+
+    events_summary = fetch_event_ids(filters)
+    if not events_summary:
         print("⚠️  Не найдено событий с указанными фильтрами.")
         return
 
-    print(f"Всего найдено id событий: {len(event_ids)}")
-    events = fetch_event_details(event_ids)
+    registry_ids = ensure_registry(events_summary)
 
-    df = pd.DataFrame(events, columns=EXPORT_COLUMNS)
-    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    city_name = filters.get("cities", "all").replace(" ", "_")
-    out = f"timepad_events_{city_name}_{stamp}.csv"
-    df.to_csv(out, index=False, encoding="utf-8")
-    print(f"✅ Сохранено {len(df)} событий в файл {out}")
+    existing_data_ids = load_existing_data_ids(data_file)
+    pending_ids = [event_id for event_id in registry_ids if event_id not in existing_data_ids]
+
+    if not pending_ids:
+        print(f"ℹ️  Новых событий для загрузки нет. {data_file.name} уже содержит все записи.")
+        return
+
+    print(f"Всего событий в реестре: {len(registry_ids)}, предстоит загрузить: {len(pending_ids)}")
+    rows = fetch_event_details(pending_ids)
+    append_events_data(rows, data_file)
 
 if __name__ == "__main__":
     main()

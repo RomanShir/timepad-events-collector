@@ -1,2 +1,9 @@
 # timepad-events-collector
 Сбор событий
+
+key,value
+category_ids,217
+cities,Санкт-Петербург
+starts_at_min,2025-11-01T00:00:00Z
+starts_at_max,2025-11-03T23:59:59Z
+limit,100
